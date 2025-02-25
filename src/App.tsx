@@ -124,7 +124,7 @@ function App() {
                 )
 
             }
-            <img src="./src/assets/fatmaPraying.png" alt="" />
+            <img src="/fatmaPraying.png" alt="" />
           </div>
 
           <div id="hi" className="max-lg:hidden w-[35%] max-lg:w-full min-h-[500px] p-5 bg-[var(--frame-color)] rounded-xl">
@@ -139,7 +139,7 @@ function App() {
             </div>
 
             <div id="sunflower" >
-              <img src="./src/assets/sunflowerField.svg" alt="" />
+              <img src="/sunflowerField.svg" alt="" />
             </div>
 
           </div>
@@ -191,7 +191,7 @@ function App() {
           </div>
 
           <div id="sunflower" >
-            <img src="./src/assets/sunflowerField.svg" alt="" />
+            <img src="/sunflowerField.svg" alt="" />
           </div>
 
         </div>
