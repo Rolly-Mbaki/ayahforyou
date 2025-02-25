@@ -30,25 +30,25 @@ function App() {
 
       switch (emotion) {
         case 'Happy':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of happiness, joy, and contentment. It should be a verse that encourages feelings of positivity and well-being. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of happiness, joy, and contentment. It should be a verse that encourages feelings of positivity and well-being. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         case 'Thankful':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of thankfulness and gratitude. It should be a verse that encourages expressing gratitude towards Allah and recognizing His blessings. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of thankfulness and gratitude. It should be a verse that encourages expressing gratitude towards Allah and recognizing His blessings. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         case 'Anxious':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of anxiety and the need for trust in Allah's plan. It should be a verse that encourages finding peace and contentment in faith. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of anxiety and the need for trust in Allah's plan. It should be a verse that encourages finding peace and contentment in faith. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         case 'Sad':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of sadness and the need for hope and comfort. It should be a verse that encourages patience and reliance on Allah. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of sadness and the need for hope and comfort. It should be a verse that encourages patience and reliance on Allah. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         case 'Lonely':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of loneliness and the need for companionship with Allah. It should be a verse that encourages seeking solace in Allah’s presence and His mercy. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of loneliness and the need for companionship with Allah. It should be a verse that encourages seeking solace in Allah’s presence and His mercy. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         case 'Angry':
-          enPrompt = `Give me an uncommon ayah that reflects the feeling of anger and the need for patience and calm. It should be a verse that encourages controlling anger and seeking peace. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that reflects the feeling of anger and the need for patience and calm. It should be a verse that encourages controlling anger and seeking peace. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
           break;
         default:
-          enPrompt = `Give me an uncommon ayah that fits the emotion of ${emotion}. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / "very short reflection"`;
+          enPrompt = `Give me an uncommon ayah that fits the emotion of ${emotion}. The return should look like this example: ""And do not lose hope in the mercy of Allah." / (Surah Az-Zumar, 39:53) / a reflection, keep it VERY short`;
       }
 
       const reply:string = await generateContent(enPrompt);
