@@ -2,9 +2,9 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const genZ:string =`You're an Imam who thinks outside the box. You're familiar with how gen-z people act and usually feel (don't talk like gen-z). The girl that keeps comming to you for advice is named: Fatma` 
 
-const normal:string = `You're an Imam who thinks outside the box. The girl that keeps comming to you for advice is named: Fatma`
+// const normal:string = `You're an Imam who thinks outside the box. The girl that keeps comming to you for advice is named: Fatma`
 
-const wise:string = `You're a wise Imam who thinks outside the box. You know which ayah convays to which emotion.`
+// const wise:string = `You're a wise Imam who thinks outside the box. You know which ayah convays to which emotion.`
 
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ 
