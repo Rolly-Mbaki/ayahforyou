@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+:root {
+    --frame-color: #FFB6CA;
+    --drop-shadow-color: #d980a4;
+    --bg-color: #FFD5DB;
+    --text-color: #AB103C;
+    --text-color-sec: #630500;
+    --drop-shadow: 0_35px_35px_rgba(217, 128, 164);
+}
+
+#emotions,
+#verse,
+#hi,
+#sunnah {
+    box-shadow: 6px 7px 10px var(--drop-shadow-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    /* color: var(--text-color); */
+    color: rgb(91, 1, 61);
+    font-family: "Quicksand", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+button, #sunnahButton {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px var(--drop-shadow-color);
+    border-radius: .75rem;
+    height: 80px;
+    min-width: 80px;
+    border: 3px solid var(--bg-color);
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sunnahButton{
+    height: auto;
+    width: auto;
+}
+
+button:hover {
+    background-color: var(--bg-color);
+}
+
+#extraInfo{
+    font-family: "Bad script", serif;
+}
+
+#verse img{
+    width: 250px;
+}
+
+#hi {
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+#hi p{
+    z-index: 2;
+}
+
+#sunflower img{
+    width: 150%;
+    position: absolute;
+    /* Voor full opacity */
+    /* bottom: -70px;
+    left: 0; */
+
+    /* Voor half opacity */
+    bottom: 0;
+    left: 0;
+    opacity: .25;
+}
+
+#root{
+    position: relative;
+}
+
+#google_translate_element{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* #google_translate_element */
+body > .skiptranslate {
+    display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
