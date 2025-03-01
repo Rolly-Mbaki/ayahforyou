@@ -15,7 +15,8 @@
 #verse,
 #hi,
 #sunnah,
-#deen {
+#deen,
+.chat-bubble {
     box-shadow: 6px 7px 10px var(--drop-shadow-color);
 }
 
@@ -38,6 +39,19 @@ button, #sunnahButton {
     border: 3px solid var(--bg-color);
     font-weight: bold;
     padding: 5px;
+}
+
+.languageBtn{
+    height: 30px;
+    width: auto;
+    border: none;
+    background-color: var(--frame-color);
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.languageBtn:hover{
+    border: 3px solid var(--text-color-sec);
 }
 
 .sunnahButton{
@@ -132,7 +146,7 @@ input:focus {
     right: 10px;
     cursor: pointer;
     border: 3px solid var(--bg-color);
-    padding: 3px;
+    padding: 1px;
     border-radius: .75rem;
     box-shadow: 4px 4px 4px var(--drop-shadow-color);
     font-weight: bold;
