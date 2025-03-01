@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { ArrowUp, Loader, X } from "lucide-react"
 import { generateContent, generateDeenBuddy } from "./components/Model"
 
